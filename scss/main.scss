@@ -1,0 +1,17 @@
+body {
+  height: 250px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.calculator {
+  width: 45%;
+  .button {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+  }
+  .button .op {
+    background-color: lighten(green, 15%);
+  }
+}

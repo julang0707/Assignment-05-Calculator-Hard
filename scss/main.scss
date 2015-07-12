@@ -3,15 +3,35 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+
 }
 .calculator {
-  width: 45%;
+  width: 21%;
+  margin: 45px;
   .button {
+    margin: 0;
+    padding: 0;
     height: 50px;
     width: 50px;
     background-color: green;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+
   }
-  .button .op {
-    background-color: lighten(green, 15%);
   }
-}
+
+#screen {
+    margin: 0;
+    padding-right: 5px;
+    width: 158px;
+    height: 50px;
+    background-color: green;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    text-align: right;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+  }

@@ -2,31 +2,31 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="hard_mode/css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <title></title>
 </head>
 <body>
   <div class="calculator">
-
-  </div>
-<input type="button" class="button" id="clear" value="C">
-<input type="button" class="screen" id="screen" value="">
-<input type="button" class="button" value="7">
-<input type="button" class="button" value="8">
-<input type="button" class="button" value="9">
-<input type="button" class="button op" value="/">
-<input type="button" class="button"value="4">
-<input type="button" class="button"value="5">
-<input type="button" class="button"value="6">
-<input type="button" class="button op" value="X">
-<input type="button" class="button" value="1">
-<input type="button" class="button" value="2">
-<input type="button" class="button" value="3">
-<input type="button" class="button op" value="-">
-<input type="button" class="button" value="0">
-<input type="button" class="button" value=".">
-<input type="button" class="button" id="eval" value="=">
-<input type="button" class="button op" value="+">
+    <form name "my_calc">
+<input class="button" id="clear" value="C" onclick="reset();">
+<input class="button" id="screen" value="">
+<input class="button" value="7" onclick="update(7)">
+<input class="button" value="8" onclick="update(8)">
+<input class="button" value="9" onclick="update(9)">
+<input class="button op" value="/" onclick="update('/')">
+<input class="button" value="4" onclick="update(4)">
+<input class="button" value="5" onclick="update(5)">
+<input class="button" value="6" onclick="update(6)">
+<input class="button op" value="*" onclick="update('*')">
+<input class="button" value="1" onclick="update(1)">
+<input class="button" value="2" onclick="update(2)">
+<input class="button" value="3" onclick="update(3)">
+<input class="button op" value="-" onclick="update('-')">
+<input class="button" value="0" onclick="update(0)">
+<input class="button" value="." onclick="update('.')">
+<input class="button" id="eval" value="=" onclick="result();">
+<input class="button op" value="+" onclick="update('+')">
+  </form>
   </div>
   <script type="text/javascript" src="main.js"></script>
 </body>
